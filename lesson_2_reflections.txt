@@ -1,0 +1,51 @@
+2015 Apr 03
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+. working directory - where I operate on files
+. staging area - where I pull files together for a commit
+. repository - where checked in files are
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+. I can use diff to compare the altered files to the latest commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+. Some examples of where branches are helpful in keeping my history organized are:
+.. When the software is used on different products.
+.. When new features are being developed and a customer needs a defect repaired on the shipping version.
+
+
+Current History Diagram
+revert controls
++- (coins)
+ | first coins commit
+ | helper functions
+ | coin collection
+ | ships on coins
++- (master)
+ | fix screen typo
+ | ipad
+ | frame interval
+ | animation
+ | color
+ +- (easy-mode)
+  | easy
+
+
+How do the diagrams help you visualize the branch structure?
+
+. The diagrams show which commits the branches have in common and where they split off.
+
+ 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
++ pros of Gits automatic merges are:
+++ Git does most of the merges so I can concentrate on the difficult merges.
+- cons of Gits automatic merges are:
+-- sometimes Git cannot determine what is desire or Git makes a mistake.
+
+
