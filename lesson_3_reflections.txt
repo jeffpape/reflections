@@ -1,0 +1,7 @@
+2015 Apr 10
+
+When would you want to create a remote repository rather than keeping all your work locally?
+
+. I would create a remote repository when other developers are working on the project and as a way to back up my project 
+- in case my computer crashes.
+
