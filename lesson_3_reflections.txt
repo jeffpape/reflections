@@ -12,3 +12,10 @@ Why might you want to always pull changes manually rather than having Git automa
 . I could be working on a branch of old software that a special customer needs repaired.
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+. A clone is a copy of a repository.
+. A branch is new off shoot development done in the same repository. The branch separates for the main line, master. Emperically, developers will more likely merge a branch into master.
+. A fork is a new repository, typically stored on GitHub.com. Software developers often modify the code on their forks; they may or may not submit their code back to the parent fork. The parent fork may or may not accept, the modifications.
+
+
