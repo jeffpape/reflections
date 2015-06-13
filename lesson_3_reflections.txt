@@ -27,7 +27,15 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-If I had to collaborate without using Git or GitHub, I would append a verision number at the end of each file.
-Each revision of a file would need to be sent back and forth or pull from a central disk server. 
-Each user would have to make sure he/she has the latest version of the file.
-The developers would probably test more often and exchange code less often.
+. If I had to collaborate without using Git or GitHub, I would append a verision number at the end of each file.
+. Each revision of a file would need to be sent back and forth or pull from a central disk server. 
+. Each user would have to make sure he/she has the latest version of the file.
+. The developers would probably test more often and exchange code less often.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+. I prefer to make add features in a separate branch because I can more easily revert if a problem occurs or the feature is rejected.
+. The new feature branch is merged into master when the feature is ready; the developer update the feature in small increments on the branch.
+ 
+
