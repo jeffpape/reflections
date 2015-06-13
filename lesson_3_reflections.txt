@@ -18,5 +18,16 @@ Describe the differences between forks, clones, and branches. When would you use
 . A branch is new off shoot development done in the same repository. The branch separates for the main line, master. Emperically, developers will more likely merge a branch into master.
 . A fork is a new repository, typically stored on GitHub.com. Software developers often modify the code on their forks; they may or may not submit their code back to the parent fork. The parent fork may or may not accept, the modifications.
 
-This is a local change.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+. I can compare my commits to the remote state.
+. Locally storing the remote state also helps with merging branches.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If I had to collaborate without using Git or GitHub, I would append a verision number at the end of each file.
+Each revision of a file would need to be sent back and forth or pull from a central disk server. 
+Each user would have to make sure he/she has the latest version of the file.
+The developers would probably test more often and exchange code less often.
